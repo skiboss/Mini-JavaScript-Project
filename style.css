@@ -1,0 +1,82 @@
+html, body {
+  background-color: steelblue;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+h1 {
+  padding: 0;
+  margin: 0 !important; 
+}
+
+.container1 {
+  background-color: aliceblue;
+  width: 100%;
+  padding: 2rem;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.container2 {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+/* .container1 > h1, .container1 > p {
+  padding-bottom: 2em;
+} */
+
+.maincontainer {
+    padding: 50px;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.8rem;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+#btn1 {
+  background-color: steelblue;
+  color: aliceblue;
+  width: 9.6rem;
+}
+
+#btn1:hover {
+  background-color: aliceblue;
+  color: steelblue;
+  transition: 0.4s;
+  padding: 1rem;
+  border-radius: 30px;
+}
+
+#btn2 {
+  width: 100%;
+  color: steelblue;
+  background-color: aliceblue;
+}
+
+#btn2:hover {
+  background-color: steelblue;
+  color: aliceblue;
+  transition: 0.4s;
+  border-radius: 30px;
+  padding: 1rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(125, 136, 146);
+  width: 100%;
+  text-align: center;
+  padding: 5vh;
+}
